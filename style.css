@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Marvel', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+header{
+    background:#304EA6;
+    display: flex;
+    height: 10vh;
+}
+
+header nav{
+    width: 82%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .logo{
+    width: 280px;
+    height: 50px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-image: url(imagens/image\ 6.png);
+}
+header nav .op-nav{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 5px;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.Solucao-Eletrica{
+    height: 720px;
+    display: flex;
+    background: linear-gradient(63.26deg, #001964 0.58%, #688EFF 100.83%);
+}
+.SE{
+    display: flex;
+    width: 100vw;
+    margin: 0 72px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 80px;
+    color: #FFE81C;
+}
+.line-SE{
+    width: 510px;
+    height: 10px;
+    background-color: #B09D0B;
+    border-radius: 15px;
+}
+.text-SE{
+    display: flex;
+    flex-direction: column;
+    width: 576px;
+    margin: 0 72px;
+    
+}
+.text-SE h1{
+    display: flex;
+    width: 510px;
+}
+.text-SE p{
+    width: 80%;
+    font-size: 30px;
+    color: white;
+}
+.ig-button{
+    margin-top: 20px;
+    width: 360px;
+    height: 55px;
+    background: linear-gradient(90deg, #B09D0B 0%, #FFE81C 100%);
+    border-radius: 25px;
+    font-size: 35px;
+}
+
+.img-SE{
+    display: flex;
+    margin: 0 auto;
+    width: 700px;
+    height: 510px;
+    background-position: start;
+    background-size: 70%;
+    background-image: url(imagens/image\ 2.png);
+    background-repeat: no-repeat;
+}
+.Nossos-servicos{
+    display: flex;
+    background: #304EA6;
+    height: 720px;
+}
+.NS{
+    display: flex;
+    width: 100vw;
+    margin: 0 72px;
+    align-items: center;
+    justify-content: center;
+}
+.text-NS{
+    display: flex;
+    flex-direction: column;
+    width: 576px;
+    margin: 0 72px;
+}
+.line-NS{
+    width: 438px;
+    height: 10px;
+    background-color: #B09D0B;
+    border-radius: 15px;
+}
+.list-NS{
+    width: 576px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    font-size: 30px;
+}
+.button-NS{
+    margin-top: 20px;
+    width: 70%;
+    height: 55px;
+    background: linear-gradient(90deg, #B09D0B 0%, #FFE81C 100%);
+    border-radius: 25px;
+    font-size: 35px;
+}
+
+
+.imgs-NS{
+    width: 60%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+}
+.img-servicos{
+    display: flex;
+    margin: 10px;
+    width: 80%;
+    height: 80%;
+    border: 1px solid #B09D0B;
+    border-radius: 12px;
+    
+}
+.Nossos-Trabalhos{
+    display: flex;
+    background: #294495;
+    height: 720px;
+}
+
+.NT{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 72px;
+    align-items: center;
+    justify-content: center;
+}
+.text-NT{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.line-NT{
+    width: 475px;
+    height: 10px;
+    background-color: #B09D0B;
+    border-radius: 15px;
+}
+
+.text-NT p{
+    margin-top: 10px;
+    width: 720px;
+    color:white;
+    font-size: 25px;
+}
+.imgs-NT{
+    width: 1024px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-trabalhos{
+    background-color: #FFE81C;
+    border-radius: 12px;
+    width: 300px;
+    height: 240px;
+}
+.Sobre-Nos{
+    display: flex;
+    background: #304EA6;
+    height: 720px;
+}
+.SN{
+    display: flex;
+    width: 100vw;
+    margin: 0 148px;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.line-SN{
+    width: 280px;
+    height: 10px;
+    background-color: #B09D0B;
+    border-radius: 15px;
+}
+.text-SN{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.SN p{
+    margin-top: 10px;
+    width: 720px;
+    color:white;
+    font-size: 25px;
+}
+.img-SN{
+    display: flex;
+    height: 620px;
+    width: 520px;
+    background-color: #FFE81C;
+    border: 5px solid #B09D0B;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+footer{
+    background-color: dimgray;
+}
+.ft{
+    display: flex;
+    flex-direction:column;
+    margin: 10px 148px;
+}
+.up-div{
+    color: #FFE81C;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: underline;
+    text-decoration-color: #B09D0B;
+}
+.cntt-rs{
+    display: flex;
+    margin: 0 20px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #B09D0B;
+}
+.down-div{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+}
