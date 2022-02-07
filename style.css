@@ -8,18 +8,27 @@
     font-family: 'Marvel', sans-serif;
 }
 body{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+main{
     display: flex;
     flex-direction: column;
-    margin: auto;
 }
 header{
     background:#304EA6;
     display: flex;
     height: 10vh;
+    width: 100vw;
 }
 
 header nav{
-    width: 82%;
+    width: 70vw;
     display: flex;
     margin: auto;
     align-items: center;
@@ -27,7 +36,7 @@ header nav{
 }
 
 header nav .logo{
-    width: 280px;
+    width: 15vw;
     height: 50px;
     background-size: 200px;
     background-repeat: no-repeat;
@@ -37,75 +46,66 @@ header nav .op-nav{
     color: white;
     font-size: 30px;
     font-weight: 700;
-    padding: 0 5px;
-    justify-content: space-around;
     margin-left: 10px;
 }
 .Solucao-Eletrica{
     height: 720px;
     display: flex;
     background: linear-gradient(63.26deg, #001964 0.58%, #688EFF 100.83%);
-}
-.SE{
-    display: flex;
-    width: 100vw;
-    margin: 0 72px;
     align-items: center;
     justify-content: center;
 }
+.SE{
+    height: 25vw;
+    display: flex;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-around;
+}
 h1{
-    font-size: 80px;
+    font-size: 60px;
     color: #FFE81C;
 }
+p, li{
+    font-size: 25px;
+    color: white;
+}
+
+.text-SE{
+    width: 50vw;
+}
+.text-SE p{
+    width: 25vw;
+}
 .line-SE{
-    width: 510px;
+    width: 29.5vw;
     height: 10px;
     background-color: #B09D0B;
     border-radius: 15px;
 }
-.text-SE{
-    display: flex;
-    flex-direction: column;
-    width: 576px;
-    margin: 0 72px;
-    
-}
-.text-SE h1{
-    display: flex;
-    width: 510px;
-}
-.text-SE p{
-    width: 80%;
-    font-size: 30px;
-    color: white;
-}
 .ig-button{
     margin-top: 20px;
-    width: 360px;
+    width: 20vw;
     height: 55px;
     background: linear-gradient(90deg, #B09D0B 0%, #FFE81C 100%);
     border-radius: 25px;
     font-size: 35px;
 }
-
-.img-SE{
-    display: flex;
-    margin: 0 auto;
-    width: 700px;
-    height: 510px;
-    background-position: start;
-    background-size: 70%;
-    background-image: url(imagens/image\ 2.png);
-    background-repeat: no-repeat;
+.SE img{
+    height: 40vh;
 }
+
+
 .Nossos-servicos{
     display: flex;
     background: #304EA6;
     height: 720px;
+    align-items: center;
+    justify-content: center;
 }
 .NS{
     display: flex;
-    width: 100vw;
+    width: 70vw;
     margin: 0 72px;
     align-items: center;
     justify-content: center;
@@ -114,7 +114,6 @@ h1{
     display: flex;
     flex-direction: column;
     width: 576px;
-    margin: 0 72px;
 }
 .line-NS{
     width: 438px;
@@ -132,7 +131,7 @@ h1{
 }
 .button-NS{
     margin-top: 20px;
-    width: 70%;
+    width: 25vw;
     height: 55px;
     background: linear-gradient(90deg, #B09D0B 0%, #FFE81C 100%);
     border-radius: 25px;
@@ -141,8 +140,8 @@ h1{
 
 
 .imgs-NS{
-    width: 60%;
-    height: 80%;
+    width: 60vw;
+    height: 30vw;
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
@@ -161,13 +160,14 @@ h1{
     display: flex;
     background: #294495;
     height: 720px;
+    align-items: center;
+    justify-content: center;
 }
 
 .NT{
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    margin: 0 72px;
+    width: 70vw;
     align-items: center;
     justify-content: center;
 }
@@ -179,7 +179,7 @@ h1{
     justify-content: center;
 }
 .line-NT{
-    width: 475px;
+    width: 23vw;
     height: 10px;
     background-color: #B09D0B;
     border-radius: 15px;
@@ -208,50 +208,51 @@ h1{
     display: flex;
     background: #304EA6;
     height: 720px;
+    align-items: center;
+    justify-content: center;
+
 }
 .SN{
     display: flex;
-    width: 100vw;
-    margin: 0 148px;
-    align-items: center ;
-    justify-content: space-between;
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .line-SN{
-    width: 280px;
+    width: 13.5vw;
     height: 10px;
     background-color: #B09D0B;
     border-radius: 15px;
 }
 .text-SN{
+    width:35vw;
     display: flex;
     flex-direction: column;
-    width: 60%;
-}
-.SN p{
-    margin-top: 10px;
-    width: 720px;
-    color:white;
-    font-size: 25px;
 }
 .img-SN{
     display: flex;
-    height: 620px;
-    width: 520px;
+    height: 75vh;
+    width: 28vw;
     background-color: #FFE81C;
     border: 5px solid #B09D0B;
     border-radius: 12px;
     margin: 0 auto;
 }
 footer{
+    display: flex;
     background-color: dimgray;
+    align-items: center;
+    justify-content: center;
 }
 .ft{
+    align-items: center;
     display: flex;
     flex-direction:column;
-    margin: 10px 148px;
 }
 .up-div{
+    margin-top:20px;
+    width: 70vw;
     color: #FFE81C;
     font-size: 20px;
     display: flex;
@@ -268,9 +269,12 @@ footer{
     border: 1px solid #B09D0B;
 }
 .down-div{
-    margin: 10px 0;
+    width: 70vw;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    color: white;
-    font-size: 18px;
+    margin-bottom: 1vw;
+}
+.down-div p{
+    font-size: 20px;
 }
