@@ -12,7 +12,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     overflow-x: hidden;
 }
 
@@ -49,7 +48,7 @@ header nav .op-nav{
     margin-left: 10px;
 }
 .Solucao-Eletrica{
-    height: 720px;
+    height: 100vh;
     display: flex;
     background: linear-gradient(63.26deg, #001964 0.58%, #688EFF 100.83%);
     align-items: center;
@@ -95,11 +94,10 @@ p, li{
     height: 40vh;
 }
 
-
 .Nossos-servicos{
     display: flex;
     background: #304EA6;
-    height: 720px;
+    height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -159,7 +157,7 @@ p, li{
 .Nossos-Trabalhos{
     display: flex;
     background: #294495;
-    height: 720px;
+    height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -207,7 +205,7 @@ p, li{
 .Sobre-Nos{
     display: flex;
     background: #304EA6;
-    height: 720px;
+    height: 100vh;
     align-items: center;
     justify-content: center;
 
